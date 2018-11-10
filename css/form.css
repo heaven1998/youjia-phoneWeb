@@ -1,0 +1,66 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	list-style-type: none;
+}
+body {
+	background-color: #d3d3d3 !important;
+}
+.di{
+	width: 100%;
+}
+.img{
+	width: 20px;
+	margin-left: 80%;
+	margin-top: 40px;
+}
+.img img{
+	width: 20px;
+}
+.imgg{
+	width: 100%;
+	margin-top: 20px;
+}
+.imgg{
+	margin-left:24%;
+}
+form input{
+	clear: both;
+	border: none !important;
+}
+.ui-input-text
+{
+	width: 60%;
+	margin-left: 50px !important;
+}
+
+label.ui-input-text{
+	margin-left: 20px !important;
+	margin-top: 20px !important;
+}
+label.ui-input-text span{
+	margin-left: 15px;
+}
+label img{
+	width: 20px;
+	height: 20px;
+}
+.ui-submit{
+	float: left;
+	background: darkgoldenrod !important;
+}
+.ui-btn-text{
+	color: white;
+	font-weight: normal;
+	padding-top: -5px;
+}
+.ui-submit:last-child {
+	margin-left:130px;
+	background: none !important;
+	margin-top: 10px;
+}
+.ui-submit:last-child .ui-btn-text{
+	color: black !important;
+}

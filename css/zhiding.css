@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+*{ 
+	padding:0; 
+	margin:0; 
+	list-style:none; 
+	text-decoration:none; 
+	font-size:14px; 
+	font-family:'微软雅黑';
+}
+
+img{ 
+	max-width:100%;
+	}
+.otop{ 
+	padding:15px 0;
+}
+.otop div{ 
+	font-size:20px;
+}
+.odtop{ 
+	padding:15px 0; 
+	line-height:35px;
+}
+.odtop a{ 
+	display:block;
+}
+.odtop img{ 
+	width:35px;
+}
+.odtop div{ 
+	font-size:18px; 
+	color:#fff;
+}
+.dtop{ 
+	background-image:url(../img/dd.png); 
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size:cover;
+	padding-bottom:20px;
+}
+.ffSelectWrapper{ 
+	width:100% !important; 
+	border:1px solid #898989; 
+	border-radius:5px;
+	height:40px; 
+	line-height:40px;
+}
+.dz_txt{ 
+	width:100% !important; 
+	height:40px !important; 
+	line-height:40px !important;
+	border-radius:5px !important; 
+	padding:0 10px; 
+	border:1px solid #898989; 
+	background:none; 
+	color:#fff;
+}
+.ffSelect > a{ 
+	background-image:url(../img/aa.PNG); 
+	background-position:right center !important; 
+	background-size:15px; 
+	height:40px !important; 
+	line-height:40px !important; 
+	margin-right:10px;
+}
+.ffSelect > a>span{
+	height:40px !important; 
+	line-height:40px !important;
+}
+.dform .row{ 
+	margin-bottom:10px;
+}
+.dzbot{
+	background-color:#e6e6e6; 
+	border-top:2px solid #b49e86; 
+	text-align:center; 
+	position:relative; 
+	height:20px;
+}
+.sub{ 
+	width:50%; 
+	height:40px; 
+	line-height:40px; 
+	border:0; 
+	text-align:center; 
+	background-color:#b49e86; 
+	border-radius:5px; 
+	color:#fff; 
+	position:absolute; 
+	left:50%; 
+	top:-20px; 
+	margin-left:-25%;
+}
+.dztitle{ 
+	background-color:#e6e6e6; 
+	padding:15px 0; 
+	text-align:center; 
+	font-size:18px;
+}
+.dztll{
+	text-align:center; 
+	font-size:22px; height:30px;
+}
+.ffTextBoxWrapper{ 
+	width:100%;
+}
+.ffTextBoxRight,
+.ffPasswordRight{ 
+	padding-right:0 !important;
+}
+.ffTextBoxWrapper, 
+.ffPasswordWrapper, 
+.ffCheckboxWrapper, 
+.ffRadioWrapper, 
+.ffTextAreaWrapper, 
+.ffSubmitWrapper, 
+.ffResetWrapper, 
+.ffButtonWrapper{ 
+	margin:5px auto;
+	border:1px solid #898989; 
+	border-radius:5px;
+}
+.ffTextBoxLeft, .ffPasswordLeft{    
+	background-image: url(../img/aa.PNG);
+  background-position: right center !important;
+  background-size:15px;
+  height: 40px !important;
+  line-height: 40px !important;
+  margin-right: 10px;}
+.ffSelect > a > span{ 
+	color:#fff !important;
+}	
+.sel_mdd a{ 
+	cursor:pointer;
+}
+.sel_mdd{ 
+	width:100%; 
+	position:relative; 
+	height:40px;
+	border:1px solid #898989; 
+	border-radius:5px; 
+	padding:0 0 0 10px; 
+	line-height:40px;
+}
+.sel_mdd .purple1{ 
+	color:#fff;    
+  background-image: url(../img/aa.PNG);
+  background-position: right center !important; 
+  background-repeat:no-repeat; 
+  display:block;
+  background-size: 15px;
+  height: 40px !important;
+  line-height: 40px !important;
+  margin-right:10px; 
+  border:0; 
+  background-color:inherit; 
+}
+.sel_mdd .purple1:hover{ 
+	text-decoration:none;
+}	
+.sel_mdd .purple1 span{ 
+	font-size:12px; 
+	color:#b6b6b6;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #000; opacity:1; 
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #000;opacity:1;
+}
+
+input:-ms-input-placeholder{
+    color: #000;opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    color: #fff;opacity:1;
+}
+
+.dform:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff; opacity:1; 
+}
+
+.dform ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fff;opacity:1;
+}
+
+.dform input:-ms-input-placeholder{
+    color: #fff;opacity:1;
+}
+
+.dform input::-webkit-input-placeholder{
+    color: #fff;opacity:1;
+}
+.mddbox{ 
+	width:100%; 
+	position:absolute; 
+	top:39px; 
+	left:0; 
+	background-color:#fff;
+	z-index:991; 
+	display:none;
+}
+.mddtll{ 
+	padding:5px; 
+	display:inline-block; 
+	background-color:#e8e2da; 
+	color:#5d5e5e;  
+	line-height:20px; 
+	float:left;
+}
+.mddtll span{
+	padding:5px; 
+	display:inline-block; 
+	float:left; 
+	background-color:#e8e2da; 
+	color:#5d5e5e;  
+	line-height:20px; 
+	float:left;
+}
+.mddtll span i{ 
+	font-size:14px; 
+	margin-left:5px;
+}
+.mddcon{ 
+	width:100%; 
+	float:left; 
+	padding:10px;
+}
+.mddcon a{ 
+	color:#5d5e5e; 
+	padding:0px 5px; 
+	display:inline-block; 
+	ine-height:10px;
+}
+.mddcon2{ 
+	width:100%; 
+	float:left; 
+	padding:10px;
+}
+.mddcon2 a{ 
+	color:#5d5e5e; 
+	padding:0px 5px; 
+	display:inline-block; 
+	line-height:10px;
+}
+.mddcon2 ul li{ 
+	display:none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+

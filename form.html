@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<meta name="viewport" content="width=device-width, initital-scale=1,user-scalable=no"  />
+		<link rel="stylesheet" href="css/form.css" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css" />
+		<script type="text/javascript" src="js/jquery-form-1.8.3.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.mobile-form-1.3.2.min.js" ></script>
+	</head>
+	<body>
+		<div data-role="page">
+  <div data-role="content" class="di">
+  	<div class="img">
+  		<a href="index.html"><img src="img/ico_close.png"></a>
+  	</div>
+  	<div class="imgg">
+  		<a href="index.html"><img src="img/logo1.png" width="50%"></a>
+  	</div>
+    <form method="post" action="demoform.asp">
+      <label for="fname" class="ui-input-text">
+      	<img src="img/ico_name.png"><span>姓名：</span>
+      </label>
+      <input type="text" name="fname" id="fname">
+      
+      
+      <label for="phone" class="ui-input-text">
+      	<img src="img/ico_phone.png"><span>手机号码：</span>
+      </label>
+      <input type="text" name="phone" id="phone">
+      
+      <label for="mail" class="ui-input-text">
+      	<img src="img/ico_mail.png"><span>邮件：</span>
+      </label>
+      <input type="text" name="mail" id="mail">
+      
+      <label for="pass" class="ui-input-text">
+      	<img src="img/ico_pass.png"><span>密码：</span>
+      </label>
+      <input type="text" name="mail" id="mail">
+      
+      <label for="pass" class="ui-input-text">
+      	<img src="img/ico_pass.png"><span>确认密码：</span>
+      </label>
+      <input type="text" name="pass" id="pass">
+      
+      <input type="submit" data-inline="true" value="注册">
+      <input id="denglu" class="denglu" type="submit" data-inline="true" value="登陆">
+    </form>
+  </div>
+</div>
+<div data-role="pagetwo">
+	<a href="#denglu"><img src="img/d01.jpg"></a>
+</div>
+	</body>
+</html>
